@@ -1,16 +1,64 @@
-# song_review
+# Song Review
 
-A new Flutter project.
+App Flutter para review de músicas. A splash aparece por ~2s e navega para a Home com uma lista de músicas mock.
 
-## Getting Started
+## Pré-requisitos
 
-This project is a starting point for a Flutter application.
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Dart `^3.7.2`)
+- Chrome (para web), Xcode (iOS/macOS) e/ou Android Studio (Android)
 
-A few resources to get you started if this is your first Flutter project:
+Confira o ambiente:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter doctor
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+Na raiz do projeto:
+
+```bash
+flutter pub get
+```
+
+## Como rodar
+
+Liste os dispositivos disponíveis:
+
+```bash
+flutter devices
+```
+
+Exemplos:
+
+```bash
+flutter run -d chrome   # navegador
+flutter run -d macos    # desktop
+flutter run             # escolhe o dispositivo padrão
+```
+
+Durante o `flutter run`:
+
+- `r` — hot reload
+- `R` — hot restart
+- `q` — encerrar
+
+## Estrutura
+
+```
+lib/
+  main.dart                 # entrypoint
+  app.dart                  # MaterialApp e tema
+  models/                   # modelos (Song)
+  data/                     # mocks (músicas reais)
+  common/constants/         # cores e constantes
+  screens/splash/           # splash (~2s)
+  screens/home/             # lista de músicas
+```
+
+## Análise e testes
+
+```bash
+flutter analyze
+flutter test
+```

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:song_review/common/constants/app_colors.dart';
+import 'package:song_review/screens/splash/splash_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -6,14 +8,13 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-      appBar: AppBar(),
-      body: const Center(
-        child: Text('Home')
-        ), 
-      drawer: const Drawer(), 
-      floatingActionButton: FloatingActionButton(onPressed: () {})
+      title: 'Song Review',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
+        useMaterial3: true,
       ),
+      home: const SplashPage(),
     );
   }
 }
