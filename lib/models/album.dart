@@ -1,25 +1,25 @@
-class Song {
-  const Song({
+import 'package:song_review/models/song.dart';
+
+class Album {
+  const Album({
     required this.id,
     required this.title,
     required this.artist,
-    required this.album,
     required this.year,
     required this.genre,
     required this.rating,
     required this.coverColor,
-    this.trackNumber = 1,
-    this.isDeepCut = false,
+    required this.tracks,
+    this.tagline = '',
   });
 
   final String id;
   final String title;
   final String artist;
-  final String album;
   final int year;
   final String genre;
   final double rating;
   final int coverColor;
-  final int trackNumber;
-  final bool isDeepCut;
+  final List<Song> tracks;
+  final String tagline;
 }
