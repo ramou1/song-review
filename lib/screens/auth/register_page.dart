@@ -83,7 +83,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           Text('Criar conta', style: textTheme.headlineMedium),
                           const SizedBox(height: AppSpacing.xs),
                           Text(
-                            'Entre na comunidade de quem ouve o álbum até o fim.',
+                            'Crie sua conta para avaliar e compartilhar.',
                             style: textTheme.bodyMedium,
                           ),
                           const SizedBox(height: AppSpacing.lg),

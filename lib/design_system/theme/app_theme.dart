@@ -7,10 +7,10 @@ import 'package:song_review/design_system/tokens/app_spacing.dart';
 class AppTheme {
   AppTheme._();
 
-  static ThemeData light() {
+  static ThemeData build() {
     final colorScheme = ColorScheme.fromSeed(
       seedColor: AppColors.primary,
-      brightness: Brightness.light,
+      brightness: Brightness.dark,
     ).copyWith(
       primary: AppColors.primary,
       onPrimary: AppColors.onPrimary,
@@ -20,13 +20,16 @@ class AppTheme {
       error: AppColors.danger,
     );
 
-    final textTheme = GoogleFonts.interTextTheme().apply(
+    final textTheme = GoogleFonts.interTextTheme(
+      ThemeData(brightness: Brightness.dark).textTheme,
+    ).apply(
       bodyColor: AppColors.ink,
       displayColor: AppColors.ink,
     );
 
     return ThemeData(
       useMaterial3: true,
+      brightness: Brightness.dark,
       colorScheme: colorScheme,
       scaffoldBackgroundColor: AppColors.background,
       textTheme: textTheme.copyWith(
@@ -187,7 +190,7 @@ class AppTheme {
           return GoogleFonts.inter(
             fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
             fontSize: 12,
-            color: selected ? AppColors.primaryDark : AppColors.muted,
+            color: selected ? AppColors.accent : AppColors.muted,
           );
         }),
         iconTheme: WidgetStateProperty.resolveWith((states) {
@@ -199,8 +202,8 @@ class AppTheme {
       ),
       snackBarTheme: SnackBarThemeData(
         behavior: SnackBarBehavior.floating,
-        backgroundColor: AppColors.ink,
-        contentTextStyle: GoogleFonts.inter(color: Colors.white),
+        backgroundColor: AppColors.surfaceMuted,
+        contentTextStyle: GoogleFonts.inter(color: AppColors.ink),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppRadius.md),
         ),

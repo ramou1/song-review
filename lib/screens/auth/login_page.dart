@@ -61,9 +61,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  const BrandMark(
-                    tagline: 'Descubra as faixas que o single escondeu.',
-                  ),
+                  const BrandMark(),
                   const SizedBox(height: AppSpacing.xl),
                   AppSurface(
                     padding: const EdgeInsets.all(AppSpacing.xl),
@@ -76,7 +74,7 @@ class _LoginPageState extends State<LoginPage> {
                           Text('Entrar', style: textTheme.headlineMedium),
                           const SizedBox(height: AppSpacing.xs),
                           Text(
-                            'Continue ouvindo álbuns completos e avaliando cada faixa.',
+                            'Entre para ver o catálogo e deixar sua nota.',
                             style: textTheme.bodyMedium,
                           ),
                           const SizedBox(height: AppSpacing.lg),

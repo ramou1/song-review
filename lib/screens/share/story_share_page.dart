@@ -7,14 +7,14 @@ class StorySharePage extends StatelessWidget {
     required this.title,
     required this.subtitle,
     required this.rating,
-    required this.coverColor,
+    required this.artworkUrl,
     required this.kindLabel,
   });
 
   final String title;
   final String subtitle;
   final double rating;
-  final int coverColor;
+  final String artworkUrl;
   final String kindLabel;
 
   @override
@@ -45,21 +45,34 @@ class StorySharePage extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(AppRadius.xxl),
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            Color(coverColor),
-                            Color.lerp(
-                              Color(coverColor),
-                              const Color(0xFF0B1210),
-                              0.55,
-                            )!,
-                          ],
-                        ),
+                        color: AppColors.background,
                       ),
+                      clipBehavior: Clip.antiAlias,
                       child: Stack(
                         children: [
+                          Positioned.fill(
+                            child: Image.network(
+                              artworkUrl,
+                              fit: BoxFit.cover,
+                              errorBuilder: (_, __, ___) =>
+                                  const ColoredBox(color: AppColors.surface),
+                            ),
+                          ),
+                          const Positioned.fill(
+                            child: DecoratedBox(
+                              decoration: BoxDecoration(
+                                gradient: LinearGradient(
+                                  begin: Alignment.topCenter,
+                                  end: Alignment.bottomCenter,
+                                  colors: [
+                                    Color(0x66000000),
+                                    Color(0xCC120E18),
+                                    Color(0xF0120E18),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
                           Positioned(
                             top: 28,
                             left: 22,
@@ -98,7 +111,7 @@ class StorySharePage extends StatelessWidget {
                           Align(
                             alignment: const Alignment(0, -0.15),
                             child: CoverArt(
-                              color: Color(coverColor),
+                              imageUrl: artworkUrl,
                               size: 160,
                               radius: AppRadius.xl,
                             ),
@@ -160,7 +173,7 @@ class StorySharePage extends StatelessWidget {
                 child: FilledButton.icon(
                   style: FilledButton.styleFrom(
                     backgroundColor: AppColors.accent,
-                    foregroundColor: AppColors.ink,
+                    foregroundColor: AppColors.onAccent,
                   ),
                   onPressed: () {
                     ScaffoldMessenger.of(context).showSnackBar(

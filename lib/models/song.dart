@@ -7,9 +7,8 @@ class Song {
     required this.year,
     required this.genre,
     required this.rating,
-    required this.coverColor,
+    required this.artworkUrl,
     this.trackNumber = 1,
-    this.isDeepCut = false,
   });
 
   final String id;
@@ -19,7 +18,20 @@ class Song {
   final int year;
   final String genre;
   final double rating;
-  final int coverColor;
+  final String artworkUrl;
   final int trackNumber;
-  final bool isDeepCut;
+
+  factory Song.fromJson(Map<String, dynamic> json) {
+    return Song(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      artist: json['artist'] as String,
+      album: json['album'] as String,
+      year: json['year'] as int,
+      genre: json['genre'] as String? ?? '',
+      rating: (json['rating'] as num).toDouble(),
+      artworkUrl: json['artworkUrl'] as String? ?? '',
+      trackNumber: json['trackNumber'] as int? ?? 1,
+    );
+  }
 }

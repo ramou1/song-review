@@ -10,7 +10,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Song Review',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.light(),
+      theme: AppTheme.build(),
       home: const SplashPage(),
     );
   }

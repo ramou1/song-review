@@ -66,7 +66,7 @@ class ProfilePage extends StatelessWidget {
                   Text('Sua vibe', style: textTheme.titleMedium),
                   const SizedBox(height: AppSpacing.xs),
                   Text(
-                    'Você avalia álbuns e deep cuts, compara notas com a comunidade e compartilha reviews no stories.',
+                    'Suas notas ficam aqui, junto com o que você compartilha.',
                     style: textTheme.bodyMedium,
                   ),
                 ],

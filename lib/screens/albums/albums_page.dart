@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:song_review/data/catalog.dart';
 import 'package:song_review/design_system/design_system.dart';
-import 'package:song_review/data/mock_albums.dart';
 import 'package:song_review/screens/albums/album_detail_page.dart';
 
 class AlbumsPage extends StatelessWidget {
@@ -8,16 +8,15 @@ class AlbumsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final albums = Catalog.albums;
+
     return AppPage(
       child: CustomScrollView(
         slivers: [
           const SliverToBoxAdapter(
             child: SafeArea(
               bottom: false,
-              child: SectionHeader(
-                title: 'Álbuns',
-                subtitle: 'Explore discos completos e avalie faixa a faixa',
-              ),
+              child: SectionHeader(title: 'Álbuns'),
             ),
           ),
           SliverPadding(
@@ -28,11 +27,11 @@ class AlbumsPage extends StatelessWidget {
               AppSpacing.xl,
             ),
             sliver: SliverList.separated(
-              itemCount: mockAlbums.length,
+              itemCount: albums.length,
               separatorBuilder: (_, __) =>
                   const SizedBox(height: AppSpacing.sm),
               itemBuilder: (context, index) {
-                final album = mockAlbums[index];
+                final album = albums[index];
                 final textTheme = Theme.of(context).textTheme;
 
                 return AppSurface(
@@ -44,8 +43,8 @@ class AlbumsPage extends StatelessWidget {
                   child: Row(
                     children: [
                       CoverArt(
-                        color: Color(album.coverColor),
-                        size: 78,
+                        imageUrl: album.artworkUrl,
+                        size: 84,
                         radius: AppRadius.md,
                       ),
                       const SizedBox(width: AppSpacing.md),
@@ -61,9 +60,7 @@ class AlbumsPage extends StatelessWidget {
                             ),
                             const SizedBox(height: AppSpacing.xs),
                             Text(
-                              album.tagline,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
+                              '${album.genre} · ${album.tracks.length} faixas',
                               style: textTheme.bodySmall,
                             ),
                             const SizedBox(height: AppSpacing.xs),

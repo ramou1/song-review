@@ -1,0 +1,1073 @@
+{
+    "source":  "iTunes Search API",
+    "fetchedFrom":  "https://itunes.apple.com/search",
+    "albums":  [
+                   {
+                       "id":  "6781023399",
+                       "title":  "A Night At The Opera",
+                       "artist":  "Queen",
+                       "year":  1975,
+                       "genre":  "Rock",
+                       "rating":  4.2,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "6781023402",
+                                          "title":  "Death On Two Legs (Dedicated To...)",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.6,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023646",
+                                          "title":  "Lazing On A Sunday Afternoon",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.3,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023647",
+                                          "title":  "I\u0027m In Love With My Car",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.4,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023648",
+                                          "title":  "You\u0027re My Best Friend",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.5,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023649",
+                                          "title":  "\u002739",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.6,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023650",
+                                          "title":  "Sweet Lady",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.7,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023653",
+                                          "title":  "Seaside Rendezvous",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  3.7,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023654",
+                                          "title":  "The Prophet\u0027s Song",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  3.8,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023655",
+                                          "title":  "Love Of My Life",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  3.9,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023656",
+                                          "title":  "Good Company",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023657",
+                                          "title":  "Bohemian Rhapsody",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.1,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "6781023658",
+                                          "title":  "God Save the Queen",
+                                          "artist":  "Queen",
+                                          "album":  "A Night At The Opera",
+                                          "year":  1975,
+                                          "genre":  "Rock",
+                                          "rating":  4.2,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/86/92/dd86925d-484d-8ee7-3985-ef3264214269/602527644264.jpg/600x600bb.jpg"
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "617154241",
+                       "title":  "Random Access Memories",
+                       "artist":  "Daft Punk",
+                       "year":  2013,
+                       "genre":  "Pop",
+                       "rating":  4.3,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "617154353",
+                                          "title":  "Give Life Back to Music",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.6,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154354",
+                                          "title":  "The Game of Love",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.7,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154360",
+                                          "title":  "Giorgio by Moroder",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154361",
+                                          "title":  "Within",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.1,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154362",
+                                          "title":  "Instant Crush",
+                                          "artist":  "Daft Punk \u0026 Julian Casablancas",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.2,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154363",
+                                          "title":  "Lose Yourself to Dance",
+                                          "artist":  "Daft Punk \u0026 Pharrell Williams",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.3,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154364",
+                                          "title":  "Touch",
+                                          "artist":  "Daft Punk \u0026 Paul Williams",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.4,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154366",
+                                          "title":  "Get Lucky",
+                                          "artist":  "Daft Punk, Pharrell Williams \u0026 Nile Rodgers",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.6,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154367",
+                                          "title":  "Beyond",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.7,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154368",
+                                          "title":  "Motherboard",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.8,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154569",
+                                          "title":  "Fragments of Time",
+                                          "artist":  "Daft Punk \u0026 Todd Edwards",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.1,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154645",
+                                          "title":  "Doin\u0027 it Right",
+                                          "artist":  "Daft Punk \u0026 Panda Bear",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  3.9,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "617154647",
+                                          "title":  "Contact",
+                                          "artist":  "Daft Punk",
+                                          "album":  "Random Access Memories",
+                                          "year":  2013,
+                                          "genre":  "Pop",
+                                          "rating":  4.1,
+                                          "trackNumber":  13,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "1499385848",
+                       "title":  "After Hours",
+                       "artist":  "The Weeknd",
+                       "year":  2020,
+                       "genre":  "R\u0026B/Soul",
+                       "rating":  4.1,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "1499385854",
+                                          "title":  "Alone Again",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.1,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499385861",
+                                          "title":  "Too Late",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.8,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386245",
+                                          "title":  "Hardest To Love",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.2,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386246",
+                                          "title":  "Scared To Live",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.3,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386249",
+                                          "title":  "Snowchild",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.6,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386250",
+                                          "title":  "Escape From LA",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.7,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386253",
+                                          "title":  "Heartless",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2019,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  3.7,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386254",
+                                          "title":  "Faith",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  3.8,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386265",
+                                          "title":  "Blinding Lights",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2019,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  3.6,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386363",
+                                          "title":  "In Your Eyes",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.3,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386369",
+                                          "title":  "Save Your Tears",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  3.6,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386370",
+                                          "title":  "Repeat After Me (Interlude)",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  3.7,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386375",
+                                          "title":  "After Hours",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.2,
+                                          "trackNumber":  13,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1499386377",
+                                          "title":  "Until I Bleed Out",
+                                          "artist":  "The Weeknd",
+                                          "album":  "After Hours",
+                                          "year":  2020,
+                                          "genre":  "R\u0026B/Soul",
+                                          "rating":  4.4,
+                                          "trackNumber":  14,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg"
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "1450695723",
+                       "title":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                       "artist":  "Billie Eilish",
+                       "year":  2019,
+                       "genre":  "Alternative",
+                       "rating":  4.2,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "1450695729",
+                                          "title":  "!!!!!!!",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  3.8,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695739",
+                                          "title":  "bad guy",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.8,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695742",
+                                          "title":  "xanny",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  3.8,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695745",
+                                          "title":  "you should see me in a crown",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2018,
+                                          "genre":  "Alternative",
+                                          "rating":  4.1,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695867",
+                                          "title":  "all the good girls go to hell",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.6,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695871",
+                                          "title":  "wish you were gay",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  3.7,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695872",
+                                          "title":  "when the party\u0027s over",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2018,
+                                          "genre":  "Alternative",
+                                          "rating":  3.8,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695875",
+                                          "title":  "8",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.1,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695877",
+                                          "title":  "my strange addiction",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.3,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695881",
+                                          "title":  "bury a friend",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.7,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695884",
+                                          "title":  "ilomilo",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  3.7,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695888",
+                                          "title":  "listen before i go",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.1,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450695895",
+                                          "title":  "i love you",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.8,
+                                          "trackNumber":  13,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1450696020",
+                                          "title":  "goodbye",
+                                          "artist":  "Billie Eilish",
+                                          "album":  "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+                                          "year":  2019,
+                                          "genre":  "Alternative",
+                                          "rating":  4.3,
+                                          "trackNumber":  14,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg"
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "1544491232",
+                       "title":  "21",
+                       "artist":  "Adele",
+                       "year":  2011,
+                       "genre":  "Pop",
+                       "rating":  4.1,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "1544491233",
+                                          "title":  "Rolling in the Deep",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2010,
+                                          "genre":  "Pop",
+                                          "rating":  4.8,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491234",
+                                          "title":  "Rumour Has It",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  3.6,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491235",
+                                          "title":  "Turning Tables",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  3.7,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491987",
+                                          "title":  "Don\u0027t You Remember",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  4.8,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491988",
+                                          "title":  "Set Fire to the Rain",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  3.6,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491989",
+                                          "title":  "He Won\u0027t Go",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  3.7,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491992",
+                                          "title":  "Take It All",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  4,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491994",
+                                          "title":  "I\u0027ll Be Waiting",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  4.2,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491995",
+                                          "title":  "One and Only",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  4.3,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491996",
+                                          "title":  "Lovesong",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  4.4,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544491998",
+                                          "title":  "Someone Like You",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  4.6,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1544492001",
+                                          "title":  "I Found a Boy",
+                                          "artist":  "Adele",
+                                          "album":  "21",
+                                          "year":  2011,
+                                          "genre":  "Pop",
+                                          "rating":  3.6,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg"
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "1615584999",
+                       "title":  "Harry\u0027s House",
+                       "artist":  "Harry Styles",
+                       "year":  2022,
+                       "genre":  "Pop",
+                       "rating":  4.3,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "1615585001",
+                                          "title":  "Music For a Sushi Restaurant",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585006",
+                                          "title":  "Late Night Talking",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.5,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585007",
+                                          "title":  "Grapejuice",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.6,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585008",
+                                          "title":  "As It Was",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.7,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585009",
+                                          "title":  "Daylight",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.8,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585011",
+                                          "title":  "Little Freak",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  3.7,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585012",
+                                          "title":  "Matilda",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  3.8,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585091",
+                                          "title":  "Cinema",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  3.9,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585098",
+                                          "title":  "Daydreaming",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.6,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585099",
+                                          "title":  "Keep Driving",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.7,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585100",
+                                          "title":  "Satellite",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  4.8,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585101",
+                                          "title":  "Boyfriends",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  3.6,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "1615585102",
+                                          "title":  "Love Of My Life",
+                                          "artist":  "Harry Styles",
+                                          "album":  "Harry\u0027s House",
+                                          "year":  2022,
+                                          "genre":  "Pop",
+                                          "rating":  3.7,
+                                          "trackNumber":  13,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg"
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "663097964",
+                       "title":  "AM",
+                       "artist":  "Arctic Monkeys",
+                       "year":  2013,
+                       "genre":  "Alternative",
+                       "rating":  4.3,
+                       "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg",
+                       "tracks":  [
+                                      {
+                                          "id":  "663097965",
+                                          "title":  "Do I Wanna Know?",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.6,
+                                          "trackNumber":  1,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663097966",
+                                          "title":  "R U Mine?",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2012,
+                                          "genre":  "Alternative",
+                                          "rating":  4.7,
+                                          "trackNumber":  2,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663097967",
+                                          "title":  "One for the Road",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.8,
+                                          "trackNumber":  3,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663097968",
+                                          "title":  "Arabella",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  3.6,
+                                          "trackNumber":  4,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098050",
+                                          "title":  "I Want It All",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4,
+                                          "trackNumber":  5,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098051",
+                                          "title":  "No. 1 Party Anthem",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.1,
+                                          "trackNumber":  6,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098052",
+                                          "title":  "Mad Sounds",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.2,
+                                          "trackNumber":  7,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098053",
+                                          "title":  "Fireside",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.3,
+                                          "trackNumber":  8,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098056",
+                                          "title":  "Why\u0027d You Only Call Me When You\u0027re High?",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.6,
+                                          "trackNumber":  9,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098063",
+                                          "title":  "Snap Out of It",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4,
+                                          "trackNumber":  10,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098064",
+                                          "title":  "Knee Socks",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.1,
+                                          "trackNumber":  11,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      },
+                                      {
+                                          "id":  "663098065",
+                                          "title":  "I Wanna Be Yours",
+                                          "artist":  "Arctic Monkeys",
+                                          "album":  "AM",
+                                          "year":  2013,
+                                          "genre":  "Alternative",
+                                          "rating":  4.2,
+                                          "trackNumber":  12,
+                                          "artworkUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+                                      }
+                                  ]
+                   }
+               ]
+}

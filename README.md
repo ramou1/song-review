@@ -1,8 +1,8 @@
 # Song Review
 
-App Flutter para descobrir, avaliar e compartilhar **álbuns** e **músicas** — especialmente as faixas que ficam escondidas por não virarem singles.
+App Flutter para avaliar e compartilhar **álbuns** e **músicas**.
 
-A proposta é unir pessoas que ouvem álbuns completos, dão nota no que mais (e menos) gostaram e compartilham reviews no stories.
+Desenvolvido com **Flutter 3.29** e **Dart 3.7**. O catálogo de teste vem da [iTunes Search API](https://performance-partners.apple.com/search-api) (gratuita, sem chave), com nomes e capas oficiais.
 
 ## Screenshots
 
@@ -18,15 +18,15 @@ A proposta é unir pessoas que ouvem álbuns completos, dão nota no que mais (e
 
 O app usa um design system próprio em `lib/design_system/`:
 
-- **Tokens:** cores, espaçamento (4pt) e raios
-- **Tema:** Material 3 + tipografia **Inter** (`google_fonts`)
+- **Tokens:** cores (ameixa, rosa de palco, âmbar), espaçamento (4pt) e raios
+- **Tema:** Material 3 escuro + tipografia **Inter** (`google_fonts`)
 - **Componentes:** `AppPage`, `AppSurface`, `BrandMark`, `CoverArt`, `RatingStars`, `SectionHeader`
 
 ## Fluxo atual (mock)
 
 1. Splash (~2s)
 2. Login / cadastro com usuários mockados
-3. Início com deep cuts e álbuns em destaque
+3. Início com álbuns e músicas do catálogo
 4. Detalhe de álbum (tracklist) e de música (nota + share)
 5. Prévia de compartilhamento para stories
 
@@ -81,7 +81,7 @@ lib/
   app.dart
   design_system/          # tokens, tema Inter e componentes
   models/                 # Song, Album, AppUser
-  data/                   # mocks + MockAuth
+  data/                   # catálogo iTunes, mocks de auth
   screens/
     splash/
     auth/                 # login e cadastro

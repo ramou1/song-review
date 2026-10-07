@@ -6,14 +6,14 @@ final List<AppUser> mockUsers = [
     name: 'Ana Vinyl',
     email: 'ana@songreview.com',
     password: '123456',
-    bio: 'Ouço álbum completo. Sempre.',
+    bio: 'Sempre de fone.',
   ),
   const AppUser(
     id: '2',
-    name: 'Leo Deep Cut',
+    name: 'Leo Martins',
     email: 'leo@songreview.com',
     password: '123456',
-    bio: 'Caçador de faixas B-side.',
+    bio: 'Uma nota de cada vez.',
   ),
   const AppUser(
     id: '3',

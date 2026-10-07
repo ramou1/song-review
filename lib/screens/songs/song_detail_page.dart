@@ -41,7 +41,7 @@ class _SongDetailPageState extends State<SongDetailPage> {
         children: [
           Center(
             child: CoverArt(
-              color: Color(song.coverColor),
+              imageUrl: song.artworkUrl,
               size: 180,
               radius: AppRadius.xl,
               icon: Icons.music_note_rounded,
@@ -59,28 +59,6 @@ class _SongDetailPageState extends State<SongDetailPage> {
             textAlign: TextAlign.center,
             style: textTheme.bodyMedium,
           ),
-          if (song.isDeepCut) ...[
-            const SizedBox(height: AppSpacing.sm),
-            Center(
-              child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: AppSpacing.sm,
-                  vertical: AppSpacing.xs,
-                ),
-                decoration: BoxDecoration(
-                  color: AppColors.primarySoft,
-                  borderRadius: BorderRadius.circular(AppRadius.sm),
-                ),
-                child: Text(
-                  'Deep cut · vale ouvir no contexto do álbum',
-                  style: textTheme.labelLarge?.copyWith(
-                    color: AppColors.primaryDark,
-                    fontSize: 12,
-                  ),
-                ),
-              ),
-            ),
-          ],
           const SizedBox(height: AppSpacing.xl),
           AppSurface(
             child: Column(
@@ -113,7 +91,7 @@ class _SongDetailPageState extends State<SongDetailPage> {
                     title: song.title,
                     subtitle: '${song.artist} · ${song.album}',
                     rating: _myRating,
-                    coverColor: song.coverColor,
+                    artworkUrl: song.artworkUrl,
                     kindLabel: 'MÚSICA',
                   ),
                 ),

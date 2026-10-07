@@ -65,11 +65,10 @@ class _SplashPageState extends State<SplashPage>
           opacity: _fade,
           child: SlideTransition(
             position: _slide,
-            child: const Center(
+              child: const Center(
               child: BrandMark(
                 size: 84,
                 light: true,
-                tagline: 'Álbuns completos. Faixas escondidas. Notas honestas.',
               ),
             ),
           ),

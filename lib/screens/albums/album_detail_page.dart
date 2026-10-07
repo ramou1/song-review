@@ -18,70 +18,82 @@ class AlbumDetailPage extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            expandedHeight: 250,
+            expandedHeight: 280,
             pinned: true,
-            backgroundColor: AppColors.primaryDark,
+            backgroundColor: AppColors.background,
             foregroundColor: Colors.white,
             flexibleSpace: FlexibleSpaceBar(
-              background: Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [
-                      Color(album.coverColor),
-                      Color.lerp(Color(album.coverColor), Colors.black, 0.45)!,
-                    ],
+              background: Stack(
+                fit: StackFit.expand,
+                children: [
+                  Image.network(
+                    album.artworkUrl,
+                    fit: BoxFit.cover,
+                    errorBuilder: (_, __, ___) =>
+                        const ColoredBox(color: AppColors.surface),
                   ),
-                ),
-                child: SafeArea(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(
-                      AppSpacing.page,
-                      56,
-                      AppSpacing.page,
-                      AppSpacing.lg,
+                  const DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                        colors: [
+                          Color(0x66000000),
+                          Color(0xCC120E18),
+                          AppColors.background,
+                        ],
+                      ),
                     ),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        CoverArt(
-                          color: Color(album.coverColor),
-                          size: 114,
-                          radius: AppRadius.lg,
-                        ),
-                        const SizedBox(width: AppSpacing.md),
-                        Expanded(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.end,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                album.title,
-                                style: textTheme.headlineSmall?.copyWith(
-                                  color: Colors.white,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                '${album.artist} · ${album.year} · ${album.genre}',
-                                style: textTheme.bodyMedium?.copyWith(
-                                  color: Colors.white70,
-                                ),
-                              ),
-                              const SizedBox(height: AppSpacing.xs),
-                              RatingStars(
-                                rating: album.rating,
-                                size: 18,
-                                valueColor: Colors.white,
-                              ),
-                            ],
+                  ),
+                  SafeArea(
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(
+                        AppSpacing.page,
+                        56,
+                        AppSpacing.page,
+                        AppSpacing.lg,
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          CoverArt(
+                            imageUrl: album.artworkUrl,
+                            size: 112,
+                            radius: AppRadius.lg,
                           ),
-                        ),
-                      ],
+                          const SizedBox(width: AppSpacing.md),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  album.title,
+                                  style: textTheme.headlineSmall?.copyWith(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                const SizedBox(height: 4),
+                                Text(
+                                  '${album.artist} · ${album.year} · ${album.genre}',
+                                  style: textTheme.bodyMedium?.copyWith(
+                                    color: Colors.white70,
+                                  ),
+                                ),
+                                const SizedBox(height: AppSpacing.xs),
+                                RatingStars(
+                                  rating: album.rating,
+                                  size: 18,
+                                  valueColor: Colors.white,
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                ),
+                ],
               ),
             ),
           ),
@@ -89,15 +101,13 @@ class AlbumDetailPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.fromLTRB(
                 AppSpacing.page,
-                AppSpacing.lg,
+                AppSpacing.md,
                 AppSpacing.page,
                 AppSpacing.xs,
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(album.tagline, style: textTheme.bodyMedium),
-                  const SizedBox(height: AppSpacing.md),
                   FilledButton.icon(
                     onPressed: () {
                       Navigator.of(context).push(
@@ -106,7 +116,7 @@ class AlbumDetailPage extends StatelessWidget {
                             title: album.title,
                             subtitle: album.artist,
                             rating: album.rating,
-                            coverColor: album.coverColor,
+                            artworkUrl: album.artworkUrl,
                             kindLabel: 'ÁLBUM',
                           ),
                         ),
@@ -134,22 +144,14 @@ class AlbumDetailPage extends StatelessWidget {
                 ),
                 leading: CircleAvatar(
                   backgroundColor: AppColors.primarySoft,
-                  foregroundColor: AppColors.primary,
+                  foregroundColor: AppColors.accent,
                   child: Text('${song.trackNumber}'),
                 ),
                 title: Text(
                   song.title,
                   style: const TextStyle(fontWeight: FontWeight.w600),
                 ),
-                subtitle: song.isDeepCut
-                    ? const Text(
-                        'Deep cut',
-                        style: TextStyle(
-                          color: AppColors.primary,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      )
-                    : Text(song.genre),
+                subtitle: Text(song.genre),
                 trailing: RatingStars(rating: song.rating, size: 14),
               );
             },
