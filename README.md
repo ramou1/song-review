@@ -8,11 +8,11 @@ Desenvolvido com **Flutter 3.29** e **Dart 3.7**. O catálogo de teste vem da [i
 
 | Login | Cadastro | Início |
 | :---: | :---: | :---: |
-| ![Login](https://i.imgur.com/mz6Bvo9.png) | ![Cadastro](https://i.imgur.com/jy1FkIe.png) | ![Início](https://i.imgur.com/xdBSnPj.png) |
+| ![Login](https://i.imgur.com/3M3zNqR.png) | ![Cadastro](https://i.imgur.com/wOdjZQe.png) | ![Início](https://i.imgur.com/3ehXgQX.png) |
 
-| Álbum | Música | Stories |
+| Lista Álbuns | Álbum | Música |
 | :---: | :---: | :---: |
-| ![Álbum](https://i.imgur.com/DzgDkVd.png) | ![Música](https://i.imgur.com/XT3qdsT.png) | ![Stories](https://i.imgur.com/qrhAOuf.png) |
+| ![Lista Álbuns](https://i.imgur.com/tFfzcGv.png) | ![Álbum](https://i.imgur.com/oHLJktu.png) | ![Música](https://i.imgur.com/nTuJNyd.png) |
 
 ## Design system
 
